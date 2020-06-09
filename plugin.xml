@@ -21,15 +21,15 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-amap-location"
+    id="cordova-amap-location-2"
     version="1.0.6">
-    <name>cordova-amap-location</name>
+    <name>cordova-amap-location-2</name>
     <description>Cordova Location Plugin By AMap</description>
     <license>Apache 2.0</license>
     <keywords>cordova,location, aMap</keywords>
 
-    <preference name="ANDROID_KEY" />
-    <preference name="IOS_KEY" />
+    <preference name="ANDROID_KEY" default="default-ANDROID_KEY"/>
+    <preference name="IOS_KEY" default="default-IOS_KEY"/>
 
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
@@ -92,6 +92,5 @@
         <framework src="Security.framework" />
         <framework src="libz.tbd" />
         <framework src="libc++.tbd" />
-        <framework src="libstdc++.6.0.9.tbd" />
     </platform>
 </plugin>
